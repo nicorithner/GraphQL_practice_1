@@ -14,12 +14,18 @@ I really like this tutorial. It was focused and the author expanded on each port
 
 ## Installation
 
-Download and install [node.js](https://nodejs.org/en/download/)
+- Download and install [node.js](https://nodejs.org/en/download/)
+- Click on the button 'Code' in the overview page of this repo and grab this repo link to clone it to your local.
 
-Open your terminal and complete the following tasks:
+### Open your terminal and complete the following tasks:
 
-1. Create a new directory for your project
+1. Create a new directory for your project in your folder of choice and navigate into it and clone the repo there:
+
     `$ mkdir graphql_lesson`
+
+    `$ cd graphql_lesson`
+
+    `$ git clone git@github.com:nicorithner/GraphQL_practice_Project_1.git`
 2. In your terminal run the following command to create 'package.json' file.
 
     `$ npm init`
