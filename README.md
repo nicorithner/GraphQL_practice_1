@@ -1,6 +1,13 @@
-## GraphQL Practice #1
+<div align="center">
 
-GraphQL practice using this tutorial:
+# GraphQL Practice #1
+
+## Node.js - Express. No database
+<hr>
+</div><br/>
+
+### GraphQL practice using this tutorial:
+
 [Learn GraphQL In 40 Minutes](https://www.youtube.com/watch?v=ZQL7tL2S0oQ) by [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
 
 I really like this tutorial. It was focused and the author expanded on each portion of the lesson to make it easier to understand.
@@ -24,6 +31,26 @@ Open your terminal and complete the following tasks:
 
     `$ npm i --save-dev nodemon`
 
+5. Run server
+
+    `$ npm run devStart`
+
+6. To do queries navigate to
+
+    `http://localhost:5000/graphql?`
+
+7. Type `query {}` and do your query inside the brackets. Like in the examples below (see screenshot and code snipet)
+
+``` graphql
+query {
+    books {
+        name
+        id
+    }
+}
+```
+
+<hr/>
 
 ## GraphiQL Screenshots
 
